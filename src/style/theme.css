@@ -1,0 +1,20 @@
+body,html{
+  margin:0;
+  padding:0;
+  min-height:100%;
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.el-form-item.is-required .el-form-item__label:before{
+  display:none;
+}
+.pull-right{
+  float:right!important;
+}
+.page-container{
+  padding:20px 40px ;
+}
+.el-pagination{
+  text-align: right;
+  margin-top: 20px;
+}
